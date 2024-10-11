@@ -73,7 +73,7 @@ main()
 Exemple : (lambda f: (f()._module.setitem(''.join([b'o', b'p', b'e', b'n']).decode(), None), f()._module[''.join([b'o', b'p', b'e', b'n']).decode()](''.join([b'f', b'l', b'a', b'g', b'.', b't', b'x', b't']).decode()).iter().next()) if len(f) > 0 else None)([x for x in (type([]).base.mro[1:]) if x._name_ == "catch_warnings"])
 ```
 
-> J'étais dans une impasse. J'ai chercher sur internet des W-U de challenges Pyjail et je suis tombé sur ca : [https://jbnrz.com.cn/index.php/2024/08/15/pyjail/](https://jbnrz.com.cn/index.php/2024/08/15/pyjail/#header-id-39)
+> J'étais dans une impasse. J'ai cherché sur internet des W-U de challenges Pyjail et je suis tombé sur ca : [https://jbnrz.com.cn/index.php/2024/08/15/pyjail/](https://jbnrz.com.cn/index.php/2024/08/15/pyjail/#header-id-39)
 
 > J'ai compris qu'on pouvait bypass avec des commandes donc j'ai essayé : breakpoint() sauf que c'est bannit
 
